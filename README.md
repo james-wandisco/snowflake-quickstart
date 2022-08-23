@@ -110,5 +110,14 @@ List files in adls storage
 ```
 curl -X GET -H "x-ms-version: 2019-12-12" "https://jhadlsg2.dfs.core.windows.net/snowflake?recursive=true&resource=filesystem&directory=data<INSERT TOKEN HERE>" | jq
 ```
+### References ###
+
+az command reference.
+
+https://docs.microsoft.com/en-us/cli/azure/storage/account?view=azure-cli-latest
+
+Azure API reference
+
+https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/list
 
 
