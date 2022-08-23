@@ -1,6 +1,7 @@
 # snowflake-quickstart
 
-Replicating data from HDFS to Azure for Snowflake consumption.
+Replicating data from HDFS to Azure for Snowflake consumption. You can do this to become familiar with the Snowflake interface.
+Also includes some handy az cli commands for SAS key generation.
 
 ### Environment
 1. Build LDM on hadoop with Azure as a target. Azure target should have a adlsg2 storage account and container.
@@ -53,7 +54,7 @@ Sign up from here... (Click 'Start for free')
 
 6. Create your Snowflake dbs and tables.
 
-Log into Snowflake, go to the 'Worksheets'. 
+Log into Snowflake, https://app.snowflake.com/ go to the 'Worksheets'. 
 Execute these commands from here to create a database, table and import data. 
 
 *You can use the UI also. But using the comparable SQL commands here.*
