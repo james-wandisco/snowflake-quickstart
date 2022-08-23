@@ -121,4 +121,6 @@ Azure API reference
 
 https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/filesystem/list
 
+LDM and Snowflake (This link is for live replication not included here)
 
+https://docs.wandisco.com/live-data-migrator/docs/configure-target-snowflake/
